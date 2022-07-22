@@ -1,0 +1,131 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+     font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.donate-info{
+    text-align: center;
+    padding-top: 60px;
+    color: aliceblue;
+}
+.donate-info a{
+    text-decoration: none;
+    padding: 10px 25px;
+    color: aliceblue;
+    background-image: linear-gradient(yellow,red);
+}
+.donate-info p{
+    padding-bottom: 30px;
+}
+.donate-bg{
+    height: 400px;
+    width: 100%;
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+    background-color: rgba(0,0,0,0.5);
+  
+}
+
+.donate-menu{
+    text-align: center;
+    padding-top: 70px;
+}
+.donate-menu p {
+    padding-bottom: 50px;
+}
+.donate-menu a{
+    text-decoration: none;
+    color: black;
+  padding: 50px 20px;
+}
+.a-border{
+    border: 2px solid red;
+    padding: 20px 40px;
+  background-color: rgba(1, 0,0 , 0.2);
+  
+}
+.account{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.donate-button a{
+    padding: 10px 25px;
+    color: aliceblue;
+    background-image: linear-gradient(yellow, red);
+    color: white;
+}
+.donate-plan{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.flexible-container{
+    display: flex;
+    /* padding-bottom: 100px; */
+}
+.donate-item{
+      /* width: 40%; */
+     /* margin-left: 5%; */
+     margin-right: 5%;
+     padding-left: 20px;
+    border-radius: 10px;
+     box-shadow: 10px 10px 40px gray;
+}
+.width-half {
+    width: 50%;
+}
+/* .width-half p {
+    padding-bottom: 30px;
+} */
+.width-half a {
+   text-decoration: none;
+   padding: 10px 30px;
+   background-image: linear-gradient(yellow,red);
+}
+.width-half img{
+    width: 500px;
+}
+.updates-item{
+    text-align: center;
+}
+.updates-item h1{
+    font-size: 50px;
+}
+.updates-item p {
+    font-size: 20px;
+    
+}
+
+.updates-sub{
+    background-color:red;
+    opacity: 0.5;
+    height: 200px;
+    width: 70%
+}
+.updates-sub img{
+    width: 500px;
+    padding: 60px 100px;
+}
+.footer-item{
+    background-color: black;
+    height: 100px;
+}
+.footer-item h2{
+    color: brown;
+    font-size: 20px;
+}
+.footer-item p{
+    color: aliceblue;
+}
